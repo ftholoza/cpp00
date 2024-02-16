@@ -6,7 +6,7 @@
 /*   By: ftholoza <ftholoza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/12 13:17:55 by ftholoza          #+#    #+#             */
-/*   Updated: 2024/02/12 15:32:10 by ftholoza         ###   ########.fr       */
+/*   Updated: 2024/02/16 14:00:12 by ftholoza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 char	ft_uppercase(char c)
 {
 	if (c >= 'a' && c <= 'z')
-			c -= 32;
+			c = toupper(c);
 	return (c);
 }
 

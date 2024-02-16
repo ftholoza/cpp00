@@ -6,7 +6,7 @@
 /*   By: ftholoza <ftholoza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/12 16:30:55 by ftholoza          #+#    #+#             */
-/*   Updated: 2024/02/15 18:09:06 by ftholoza         ###   ########.fr       */
+/*   Updated: 2024/02/16 14:25:41 by ftholoza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <iostream>
 # include <string>
+# include "stdlib.h"
 
 
 class contact
@@ -57,5 +58,10 @@ class phone_book
 		void	search_contact();
 		contact get_contact(int index);	
 };
+
+std::string	get_info(const char *str);
+int			is_num(std::string str);
+std::string	format_info(std::string str);
+
 
 #endif
