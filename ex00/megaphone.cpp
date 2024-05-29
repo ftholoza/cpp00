@@ -6,7 +6,7 @@
 /*   By: ftholoza <ftholoza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/12 13:17:55 by ftholoza          #+#    #+#             */
-/*   Updated: 2024/02/16 14:00:12 by ftholoza         ###   ########.fr       */
+/*   Updated: 2024/05/29 20:04:02 by ftholoza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	main(int argc, char **argv)
 {
 	int		i;
 	int		j;
-	
+
 	i = 0;
 	j = 1;
 	if (argc < 2)
